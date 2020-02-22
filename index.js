@@ -3,3 +3,10 @@ function writeCards(names, event) {
     console.log(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
   }
 }
+
+function countDown(num){
+  let num = 10;
+  while (num == 0){
+    console.log(num)
+  }
+}
